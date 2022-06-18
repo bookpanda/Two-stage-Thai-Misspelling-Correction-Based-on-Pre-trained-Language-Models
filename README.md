@@ -1,1 +1,2 @@
-hello
+# WanchanBERTa Text Fixer
+Correcting misspellings in large quantities can be arduous and tiresome, especially when the language is not used worldwide. Ignoring misspellings can be troublesome when training an NLP model for it could interpret two words intended to be the same as two completely different words just because of the spellings. This is why it is crucial to correct misspellings within any dataset before using it. With all of that said, I've spent some 8 weeks to try to develop an  NLP model to correct misspellings in Thai text.
