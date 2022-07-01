@@ -52,7 +52,7 @@ text = input_data['texts'].lower()
 if len(text) > 60:
     text = text[:60]
 
-url = "http://011a-34-125-118-33.ngrok.io"
+url = "http://5a27-34-66-247-68.ngrok.io"
 
 topost = {'text': text}    
 post = requests.post(url, json=topost)
