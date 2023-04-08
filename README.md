@@ -3,13 +3,14 @@ Correcting misspellings in large quantities can be arduous and tiresome, especia
 
 You can read more in this <a href="https://medium.com/@marginpankam/wanchanberta-thai-grammarly-5010671797c7" target="_blank">Medium blog</a>.
 
-# Files
+# Directories
 ## /tpth
 This is the code for the model trained with VISTEC_TPTH_2021 dataset
 
 ## /ugwc
 This is the code for the model trained with Thai UGWC dataset (the public dataset was released as a json file so I named the code files with "json" suffixes at the time).
 
+## File names
 - data: making dataset for all models
 - tagging: training and testing the model that does NER on input tokenized text
 - masking: training and testing the model that receives the output of the tagging model and does MLM to predict misspelling corrections
